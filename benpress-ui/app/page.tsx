@@ -1,7 +1,11 @@
+import DashboardCard from "@/components/ui/dashboard/dashboard-card";
+
 export default function Home() {
   return (
     <>
-      <h1 className="text-2xl">Dashboard</h1>
+      <div className="flex flex-col md: flex-rowjustify-between gap-5 mb-5">
+        <DashboardCard />
+      </div>
     </>
   );
 }
